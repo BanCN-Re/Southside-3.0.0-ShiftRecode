@@ -1,0 +1,18 @@
+{
+  "package": "dev.southside.mixin",
+  "refmap": "southside-refmap.json",
+  "mixinPriority": 3,
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "compatibilityLevel": "JAVA_21",
+  "priority": 3,
+  "required": true,
+  "mixins": [
+    "accessors.IGameRenderer",
+    "misc.MixinMouse",
+    "accessors.IPostEffectProcessor",
+    "accessors.IScroller"
+  ]
+}

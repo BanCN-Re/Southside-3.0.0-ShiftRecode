@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "southside",
+  "version": "3.0.0",
+  "name": "Southside",
+  "description": "20018",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "accessWidener": "southside.accesswidener",
+  "entrypoints": {
+    "client": [
+      "dev.southside.Southside"
+    ]
+  },
+  "mixins": [
+    "southside.mixins.json",
+    "oneconfig.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "fabricloader": ">=0.18.1",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/jlayer-1.0.1.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-windows.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3.jar"
+    }
+  ]
+}

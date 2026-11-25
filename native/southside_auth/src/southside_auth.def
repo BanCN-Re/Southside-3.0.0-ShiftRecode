@@ -1,0 +1,13 @@
+LIBRARY southside_auth
+EXPORTS
+    JNI_OnLoad
+    Java_IIIIllllIIlIIIIlllllIlIl_authenticated0
+    Java_IIIIllllIIlIIIIlllllIlIl_chat0
+    Java_IIIIllllIIlIIIIlllllIlIl_create0
+    Java_IIIIllllIIlIIIIlllllIlIl_disconnected0
+    Java_IIIIllllIIlIIIIlllllIlIl_onOpen0
+    Java_IIIIllllIIlIIIIlllllIlIl_presence0
+    Java_IIIIllllIIlIIIIlllllIlIl_receive0
+    Java_IIIIllllIIlIIIIlllllIlIl_reconnect0
+    Java_IIIIllllIIlIIIIlllllIlIl_release0
+    Java_IIIIllllIIlIIIIlllllIlIl_showLogin0
